@@ -1,0 +1,64 @@
+Hello, are you avaialble?
+[17:29:45] Mahibul Hasan Sohag: hi
+[17:29:47] WP-Ask.Me: I have a new request I would like to discuss
+[17:30:01] Mahibul Hasan Sohag: okay
+[17:30:10] WP-Ask.Me: this is also for multisite
+[17:30:24] WP-Ask.Me: and must network function
+[17:30:42] WP-Ask.Me: When a person registers / create a new site
+[17:30:48] WP-Ask.Me: I need the following:
+[17:30:55] WP-Ask.Me: 1) Set default template
+[17:31:06] WP-Ask.Me: 2) Import gravity form
+[17:31:15] WP-Ask.Me: 3) Auto Create a list of pages
+[17:31:38] WP-Ask.Me: 4) Auto create 2 categories for the GC Testimonials plugin (custom post type)
+[17:31:59] WP-Ask.Me: **forget about numbers 1&2 - they can be done in wp-config.php
+[17:32:15] WP-Ask.Me: but I want a plugin that will accomplish 3&4 above
+[17:32:40] WP-Ask.Me: this can be added to the plugin you created already
+[17:33:58] Mahibul Hasan Sohag: Then you need to provide the pages title and content
+[17:34:09] Mahibul Hasan Sohag: and testimonial content
+[17:34:54] WP-Ask.Me: just make default pages - I will edit the plugin to have proper title, content, etc...
+[17:35:13] WP-Ask.Me: but one requirement is that the page author will need to be set as the site owner
+[17:35:17] WP-Ask.Me: this is very important
+[17:35:39] WP-Ask.Me: for the testimonial
+[17:35:42] WP-Ask.Me: there is no content
+[17:35:46] WP-Ask.Me: just adding the categories
+[17:36:07] WP-Ask.Me: http://wordpress.org/plugins/gc-testimonials/
+[17:36:11] WP-Ask.Me: this plugin
+[17:36:15] WP-Ask.Me: will be activated on the site
+[17:36:37] WP-Ask.Me: but I need the categories to be added to each site after it is created
+[17:38:08] Mahibul Hasan Sohag: wait 2 minutes, let me install the gc testimonial plugin
+[17:38:16] WP-Ask.Me: ok
+[17:39:07] Mahibul Hasan Sohag: So, we are talking about Testimonial categories?
+[17:40:23] Mahibul Hasan Sohag: sorry, it definitley be the testimoninal category
+[17:40:30] WP-Ask.Me: right
+[17:41:32] Mahibul Hasan Sohag: okay, let me tell the dependency
+[17:41:50] Mahibul Hasan Sohag: gc testimonial plugins might be activated through out the network
+[17:42:17] Mahibul Hasan Sohag: otherwise, I have to directly populate the database and it's not recommended
+[17:43:08] WP-Ask.Me: gc testimonials will be network activated
+[17:43:58] Mahibul Hasan Sohag: Okay, I will add a separate configuration script inside the plguin folder to make it handy for you
+[17:44:10] Mahibul Hasan Sohag: to add categories, pages etc
+[17:44:26] WP-Ask.Me: ok, thanks
+[17:44:29] WP-Ask.Me: how much $
+[17:44:59] Mahibul Hasan Sohag: $40
+[17:45:03] Mahibul Hasan Sohag: okay?
+[17:45:13] WP-Ask.Me: ok
+[17:45:23] WP-Ask.Me: funding now
+[17:46:09] Mahibul Hasan Sohag: okay, thank you. I will do this later today and you will get his done after your sleep, I think it's mid night in USA
+[17:46:35] WP-Ask.Me: current time here is 7:46am
+[17:47:44] Mahibul Hasan Sohag: haha, okay
+[17:47:59] WP-Ask.Me: escrow funded
+[17:48:35] Mahibul Hasan Sohag: thanks.
+[17:48:45] WP-Ask.Me: (handshake)
+[17:49:10] Mahibul Hasan Sohag: I will knock you when it gets finished (handshake)
+[17:49:39] WP-Ask.Me: thank you, can you please send the plugin to askwpcoach@gmail.com also
+[17:49:51] Mahibul Hasan Sohag: okay, I will do
+[17:50:16] WP-Ask.Me: thanks
+[22:12:20] WP-Ask.Me: One more request I just remembered, please can you also include creating a menu and setting the theme location
+[22:12:36] WP-Ask.Me: the menu will be populated with the auto created pages
+[22:16:54] Mahibul Hasan Sohag: a menu like Posts, Pages etc?
+[22:17:07] WP-Ask.Me: Apperance --> Menus
+[22:17:20] WP-Ask.Me: auto create a menu named Primary Menu
+[22:17:33] WP-Ask.Me: set the "Theme Location" = primary-menu
+[22:17:35] Mahibul Hasan Sohag: Oh, navigation menu
+[22:17:52] WP-Ask.Me: populate with pages auto-created on plugin activation
+[22:18:03] Mahibul Hasan Sohag: okay
+[22:18:39] WP-Ask.Me: (handshake) thank you
