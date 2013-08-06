@@ -1,13 +1,4 @@
 <?php 
-/*
- * Plugin Name: Simple Role Management
- * Author: Mahibul Hasan 
- * Author uri: http://sohag07hasan.elance.com
- * Description: Adds some predefined capabilites during activation and removes them duirng deactivation
- * 
- * */
- 
-
 
 //do not change anything to the class if you don't know php
 class SimpleWpRoleCap{
@@ -63,14 +54,6 @@ class SimpleWpRoleCap{
 }
 
 
-//How to use the plguin
+include MSTWEAK_DIR . 'configuration/role-capabilities.inc';
 
-/*
- * Populate the $capabilities before activating the plguin. 
- * Every time when the $capabilities are modified, please 
- * reactivate the plguin to get the updated functionality
- * */
-
-$capabilities = array('cap_1', 'cap_2');
-
-$RoleCap = new SimpleWpRoleCap($capabilities);
+return new SimpleWpRoleCap($capabilities);
