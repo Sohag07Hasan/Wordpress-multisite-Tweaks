@@ -57,7 +57,7 @@ class MultiSiteTweaks{
 			}
 		}
 		
-		//registering the menu
+		//set_theme_mod( 'nav_menu_locations', array_map( 'absint', $menu_id ) );
 		
 		
 		

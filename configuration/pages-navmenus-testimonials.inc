@@ -22,5 +22,5 @@ $testimonials[] = "Testimonial 02";
 //Nav menu
 $nav_menu = array(
 			'name' => 'Primary Menu',
-			'theme_location' => 'primary'
+			'theme_location' => 'primary-menu'
 		);
