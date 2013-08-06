@@ -5,11 +5,14 @@ class MultiSiteTweaks{
 	private $pages = array();
 	private $testimonials = array();
 	
-	private $menu_name = 'Primary Menu';
+	private $menu_name;
+	private $theme_location;
 	
-	function __construct($pages, $testimonials){
+	function __construct($pages, $testimonials, $nav_menu){
 		$this->pages = $pages;
 		$this->testimonials = $testimonials;
+		$this->menu_name = $nav_menu['name'];
+		$this->theme_location = $nav_menu['theme_location'];
 		
 		//hooks
 		add_action('wpmu_new_blog', array(&$this, 'new_blog_just_created'), 10, 6);
@@ -54,6 +57,9 @@ class MultiSiteTweaks{
 			}
 		}
 		
+		//registering the menu
+		
+		
 		
 		//testimonial categories add
 		if(count($this->testimonials) > 0){
@@ -71,4 +77,4 @@ class MultiSiteTweaks{
 
 //including configuration scripts
 include MSTWEAK_DIR . 'configuration/pages-navmenus-testimonials.inc';
-return new MultiSiteTweaks($pages, $testimonials);
+return new MultiSiteTweaks($pages, $testimonials, $nav_menu);

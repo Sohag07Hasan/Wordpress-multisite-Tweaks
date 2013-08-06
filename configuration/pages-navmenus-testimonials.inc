@@ -17,3 +17,10 @@ $pages[] = array(
 $testimonials = array();
 $testimonials[] = 'Testimonial 01';
 $testimonials[] = "Testimonial 02";
+
+
+//Nav menu
+$nav_menu = array(
+			'name' => 'Primary Menu',
+			'theme_location' => 'primary'
+		);
